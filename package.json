@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "pub": "cross-env NODE_ENV=production webpack --config webpack-dist.config.js && rm -rf .public"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "chrome-finder": "^1.0.1",
+    "compass-mixins": "^0.12.10",
+    "css-loader": "^0.28.5",
+    "end-webpack-plugin": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "gh-pages": "^1.0.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.0",
+    "web-webpack-plugin": "^1.9.3",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "cross-env": "^6.0.0"
+  }
+}
